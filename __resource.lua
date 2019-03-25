@@ -5,25 +5,16 @@ description 'ESX Mask'
 version '1.0.1'
 
 server_scripts {
-	'@es_extended/locale.lua',
-	'locales/de.lua',
-	'locales/br.lua',
-	'locales/en.lua',
-	'locales/fi.lua',
-	'locales/fr.lua',
-	'locales/sv.lua',
 	'config.lua',
 	'server/main.lua'
 }
 
 client_scripts {
 	'@es_extended/locale.lua',
-	'locales/de.lua',
-	'locales/br.lua',
 	'locales/en.lua',
-	'locales/fi.lua',
-	'locales/fr.lua',
-	'locales/sv.lua',
+	'locales/cn.lua',
+	'locales/zh.lua',
 	'config.lua',
+	'@es_extended/i18n.lua',
 	'client/main.lua'
 }

@@ -7,7 +7,7 @@ AddEventHandler('esx_mask:pay', function()
 	local xPlayer = ESX.GetPlayerFromId(source)
 
 	xPlayer.removeMoney(Config.Price)
-	TriggerClientEvent('esx:showNotification', source, _U('you_paid') .. '$' .. Config.Price)
+	TriggerClientEvent('esx:showMaskNotification', source, 'you_paid', Config.Price)
 end)
 
 RegisterServerEvent('esx_mask:saveMask')

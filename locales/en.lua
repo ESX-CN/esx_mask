@@ -1,5 +1,4 @@
-Locales ['en'] = {
-
+Locales['en'] = {
     ['valid_purchase'] = 'validate this purchase?',
     ['yes'] = 'yes',
     ['no'] = 'no',
@@ -7,6 +6,5 @@ Locales ['en'] = {
     ['press_access'] = 'press ~INPUT_CONTEXT~ to access the menu',
     ['masks_blip'] = 'masks',
     ['no_mask'] = 'you do not have a mask',
-    ['you_paid'] = 'you paid ',
-
+    ['you_paid'] = 'you paid $%s',
 }
