@@ -1,4 +1,4 @@
-Locales['zh'] = {
+Locales['tc'] = {
     ['valid_purchase'] = '確定購買嗎？',
     ['yes'] = '確定',
     ['no'] = '取消',
